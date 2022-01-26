@@ -1,0 +1,153 @@
+{
+  "menu-item#menu-item-category-template":{
+      "props":{
+         "id":"menu-item-menu-item-category",
+         "type":"custom",
+         "iconId":null,
+         "highlight":false,
+         "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow":true,
+            "tagTitle":"#category",
+            "text":"#category"
+         },
+         "blockClass":"header-category-title"
+      }
+   },
+   "flex-layout.row#unleashed-mobile-category-01":{
+      "children":[
+         "menu-item#menu-item-category-template"
+      ],
+      "props":{
+         "blockClass":"submenu-row"
+      },
+      "title": "Category 1"
+   },
+   "flex-layout.row#unleashed-mobile-category-02":{
+      "children":[
+         "menu-item#menu-item-category-template"
+      ],
+      "props":{
+         "blockClass":"submenu-row"
+      },
+      "title": "Category 2"
+   },
+   "flex-layout.row#unleashed-mobile-category-03":{
+      "children":[
+         "menu-item#menu-item-category-template"
+      ],
+      "props":{
+         "blockClass":"submenu-row"
+      },
+      "title": "Category 3"
+   },
+   "flex-layout.row#unleashed-mobile-category-04":{
+      "children":[
+         "menu-item#menu-item-category-template"
+      ],
+      "props":{
+         "blockClass":"submenu-row"
+      },
+      "title": "Category 4"
+   },
+   "flex-layout.row#unleashed-mobile-category-05":{
+      "children":[
+         "menu-item#menu-item-category-template"
+      ],
+      "props":{
+         "blockClass":"submenu-row"
+      },
+      "title": "Category 5"
+   },
+   "flex-layout.row#unleashed-mobile-category-06":{
+      "children":[
+         "menu-item#menu-item-category-template"
+      ],
+      "props":{
+         "blockClass":"submenu-row"
+      },
+      "title": "Category 6"
+   },
+   "flex-layout.row#unleashed-mobile-category-07":{
+      "children":[
+         "menu-item#menu-item-category-template"
+      ],
+      "props":{
+         "blockClass":"submenu-row"
+      },
+      "title": "Category 7"
+   },
+   "flex-layout.row#unleashed-mobile-category-08":{
+      "children":[
+         "menu-item#menu-item-category-template"
+      ],
+      "props":{
+         "blockClass":"submenu-row"
+      },
+      "title": "Category 8"
+   },
+   "flex-layout.row#unleashed-mobile-category-09":{
+      "children":[
+         "menu-item#menu-item-category-template"
+      ],
+      "props":{
+         "blockClass":"submenu-row"
+      },
+      "title": "Category 9"
+   },
+   "flex-layout.row#unleashed-mobile-category-10":{
+      "children":[
+         "menu-item#menu-item-category-template"
+      ],
+      "props":{
+         "blockClass":"submenu-row"
+      },
+      "title": "Category 10"
+   },
+   "flex-layout.row#unleashed-mobile-category-11":{
+      "children":[
+         "menu-item#menu-item-category-template"
+      ],
+      "props":{
+         "blockClass":"submenu-row"
+      },
+      "title": "Category 11"
+   },
+   "flex-layout.row#unleashed-mobile-category-12":{
+      "children":[
+         "menu-item#menu-item-category-template"
+      ],
+      "props":{
+         "blockClass":"submenu-row"
+      },
+      "title": "Category 12"
+   },
+   "flex-layout.row#unleashed-mobile-category-13":{
+      "children":[
+         "menu-item#menu-item-category-template"
+      ],
+      "props":{
+         "blockClass":"submenu-row"
+      },
+      "title": "Category 13"
+   },
+   "flex-layout.row#unleashed-mobile-category-14":{
+      "children":[
+         "menu-item#menu-item-category-template"
+      ],
+      "props":{
+         "blockClass":"submenu-row"
+      },
+      "title": "Category 14"
+   },
+   "flex-layout.row#unleashed-mobile-category-15":{
+      "children":[
+         "menu-item#menu-item-category-template"
+      ],
+      "props":{
+         "blockClass":"submenu-row"
+      },
+      "title": "Category 15"
+   }
+}

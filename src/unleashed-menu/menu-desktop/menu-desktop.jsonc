@@ -1,0 +1,36 @@
+{
+  "menu#unleashed-menu-desktop": {
+    "children": ["disposition-layout#unleashed-menu-desktop"],
+    "props": {
+      "blockClass": "header-categoryMenu"
+    },
+    "title": "Menu - Desktop"
+  },
+  "disposition-layout#unleashed-menu-desktop": {
+    "children": [
+      "menu-item#unleashed-menu-desktop-department-01",
+      "menu-item#unleashed-menu-desktop-department-02",
+      "menu-item#unleashed-menu-desktop-department-03",
+      "menu-item#unleashed-menu-desktop-department-04",
+      "menu-item#unleashed-menu-desktop-department-05",
+      "menu-item#unleashed-menu-desktop-department-06",
+      "menu-item#unleashed-menu-desktop-department-07",
+      "menu-item#unleashed-menu-desktop-department-08",
+      "menu-item#unleashed-menu-desktop-department-09"
+    ],
+    "props": {
+      "disposition": [
+        { "order": 1, "show": true },
+        { "order": 2, "show": true },
+        { "order": 3, "show": true },
+        { "order": 4, "show": true },
+        { "order": 5, "show": true },
+        { "order": 6, "show": true },
+        { "order": 7, "show": true },
+        { "order": 8, "show": true },
+        { "order": 9, "show": true }
+      ]
+    },
+    "title": "Disposition - Menu"
+  }
+}

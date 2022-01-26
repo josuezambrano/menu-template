@@ -1,0 +1,205 @@
+{
+   "flex-layout.row#unleashed-mobile-category-with-subcategories-01":{
+      "children":[
+         "drawer#menu-item-category-template",
+         "rich-text#unleashed-mobile-category-template"
+      ],
+      "props":{
+         "blockClass": [
+            "submenu-row",
+            "submenu-withcontent"
+         ]
+      },
+      "title": "Category with subcategories 1"
+   },
+   "flex-layout.row#unleashed-mobile-category-with-subcategories-02":{
+      "children":[
+         "drawer#menu-item-category-template",
+         "rich-text#unleashed-mobile-category-template"
+      ],
+      "props":{
+         "blockClass": [
+            "submenu-row",
+            "submenu-withcontent"
+         ]
+      },
+      "title": "Category with subcategories 2"
+   },
+   "flex-layout.row#unleashed-mobile-category-with-subcategories-03":{
+      "children":[
+         "drawer#menu-item-category-template",
+         "rich-text#unleashed-mobile-category-template"
+      ],
+      "props":{
+         "blockClass": [
+            "submenu-row",
+            "submenu-withcontent"
+         ]
+      },
+      "title": "Category with subcategories 3"
+   },
+   "flex-layout.row#unleashed-mobile-category-with-subcategories-04":{
+      "children":[
+         "drawer#menu-item-category-template",
+         "rich-text#unleashed-mobile-category-template"
+      ],
+      "props":{
+         "blockClass": [
+            "submenu-row",
+            "submenu-withcontent"
+         ]
+      },
+      "title": "Category with subcategories 4"
+   },
+   "flex-layout.row#unleashed-mobile-category-with-subcategories-05":{
+      "children":[
+         "drawer#menu-item-category-template",
+         "rich-text#unleashed-mobile-category-template"
+      ],
+      "props":{
+         "blockClass": [
+            "submenu-row",
+            "submenu-withcontent"
+         ]
+      },
+      "title": "Category with subcategories 5"
+   },
+   "flex-layout.row#unleashed-mobile-category-with-subcategories-06":{
+      "children":[
+         "drawer#menu-item-category-template",
+         "rich-text#unleashed-mobile-category-template"
+      ],
+      "props":{
+         "blockClass": [
+            "submenu-row",
+            "submenu-withcontent"
+         ]
+      },
+      "title": "Category with subcategories 6"
+   },
+   "flex-layout.row#unleashed-mobile-category-with-subcategories-07":{
+      "children":[
+         "drawer#menu-item-category-template",
+         "rich-text#unleashed-mobile-category-template"
+      ],
+      "props":{
+         "blockClass": [
+            "submenu-row",
+            "submenu-withcontent"
+         ]
+      },
+      "title": "Category with subcategories 7"
+   },
+   "flex-layout.row#unleashed-mobile-category-with-subcategories-08":{
+      "children":[
+         "drawer#menu-item-category-template",
+         "rich-text#unleashed-mobile-category-template"
+      ],
+      "props":{
+         "blockClass": [
+            "submenu-row",
+            "submenu-withcontent"
+         ]
+      },
+      "title": "Category with subcategories 8"
+   },
+   "flex-layout.row#unleashed-mobile-category-with-subcategories-09":{
+      "children":[
+         "drawer#menu-item-category-template",
+         "rich-text#unleashed-mobile-category-template"
+      ],
+      "props":{
+         "blockClass": [
+            "submenu-row",
+            "submenu-withcontent"
+         ]
+      },
+      "title": "Category with subcategories 9"
+   },
+   "flex-layout.row#unleashed-mobile-category-with-subcategories-10":{
+      "children":[
+         "drawer#menu-item-category-template",
+         "rich-text#unleashed-mobile-category-template"
+      ],
+      "props":{
+         "blockClass": [
+            "submenu-row",
+            "submenu-withcontent"
+         ]
+      },
+      "title": "Category with subcategories 10"
+   },
+   "flex-layout.row#unleashed-mobile-category-with-subcategories-11":{
+      "children":[
+         "drawer#menu-item-category-template",
+         "rich-text#unleashed-mobile-category-template"
+      ],
+      "props":{
+         "blockClass": [
+            "submenu-row",
+            "submenu-withcontent"
+         ]
+      },
+      "title": "Category with subcategories 11"
+   },
+   "flex-layout.row#unleashed-mobile-category-with-subcategories-12":{
+      "children":[
+         "drawer#menu-item-category-template",
+         "rich-text#unleashed-mobile-category-template"
+      ],
+      "props":{
+         "blockClass": [
+            "submenu-row",
+            "submenu-withcontent"
+         ]
+      },
+      "title": "Category with subcategories 12"
+   },
+   "flex-layout.row#unleashed-mobile-category-with-subcategories-13":{
+      "children":[
+         "drawer#menu-item-category-template",
+         "rich-text#unleashed-mobile-category-template"
+      ],
+      "props":{
+         "blockClass": [
+            "submenu-row",
+            "submenu-withcontent"
+         ]
+      },
+      "title": "Category with subcategories 13"
+   },
+   "flex-layout.row#unleashed-mobile-category-with-subcategories-14":{
+      "children":[
+         "drawer#menu-item-category-template",
+         "rich-text#unleashed-mobile-category-template"
+      ],
+      "props":{
+         "blockClass": [
+            "submenu-row",
+            "submenu-withcontent"
+         ]
+      },
+      "title": "Category with subcategories 14"
+   },
+   "flex-layout.row#unleashed-mobile-category-with-subcategories-15":{
+      "children":[
+         "drawer#menu-item-category-template",
+         "rich-text#unleashed-mobile-category-template"
+      ],
+      "props":{
+         "blockClass": [
+            "submenu-row",
+            "submenu-withcontent"
+         ]
+      },
+      "title": "Category with subcategories 15"
+   },
+   "rich-text#unleashed-mobile-category-template":{
+      "props":{
+         "text":"#category-with-subcategory",
+         "textPosition":"LEFT",
+         "textAlignment":"LEFT",
+         "blockClass":"mobile-submenu-item-text"
+      }
+   }
+}

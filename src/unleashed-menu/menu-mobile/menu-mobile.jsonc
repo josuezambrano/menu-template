@@ -1,0 +1,48 @@
+{
+   "drawer#unleashed-menu-mobile": {
+      "children": [
+         "menu#unleashed-menu-mobile"
+      ],
+      "props": {
+         "blockClass": "mainsubdrawer",
+         "isFullWidth": true
+      }
+   },
+   "menu#unleashed-menu-mobile": {
+      "children": [
+         "disposition-layout#unleashed-mobile-deparments"
+      ],
+      "props": {
+         "orientation": "vertical",
+         "blockClass": "menu-mobile"
+      },
+      "title": "Menu - Mobile"
+   },
+   "disposition-layout#unleashed-mobile-deparments": {
+      "children": [
+         "flex-layout.row#unleashed-mobile-department-01",
+         "flex-layout.row#unleashed-mobile-department-02",
+         "flex-layout.row#unleashed-mobile-department-03",
+         "flex-layout.row#unleashed-mobile-department-04",
+         "flex-layout.row#unleashed-mobile-department-05",
+         "flex-layout.row#unleashed-mobile-department-06",
+         "flex-layout.row#unleashed-mobile-department-07",
+         "flex-layout.row#unleashed-mobile-department-08",
+         "flex-layout.row#unleashed-mobile-department-09"
+      ],
+      "props": {
+         "disposition": [
+            {"order": 1, "show": true},
+            {"order": 2, "show": true},
+            {"order": 3, "show": true},
+            {"order": 4, "show": true},
+            {"order": 5, "show": true},
+            {"order": 6, "show": true},
+            {"order": 7, "show": true},
+            {"order": 8, "show": true},
+            {"order": 9, "show": true}
+         ]
+      },
+      "title": "Disposition - Deparments"
+   }
+}

@@ -1,0 +1,208 @@
+{
+   // Subcategories
+   "drawer#menu-item-category-template":{
+      "children":[
+         "flex-layout.row#unleashed-mobile-subcategory-showall",
+         "disposition-layout#unleashed-mobile-subcategories"
+      ],
+      "props":{
+         "blockClass":"unleashed-mobile-menu-item-subcategory-drawer",
+         "isFullWidth":true
+      }
+   },
+   "disposition-layout#unleashed-mobile-subcategories": {
+      "children": [
+         "flex-layout.row#unleashed-mobile-subcategory-01",
+         "flex-layout.row#unleashed-mobile-subcategory-02",
+         "flex-layout.row#unleashed-mobile-subcategory-03",
+         "flex-layout.row#unleashed-mobile-subcategory-04",
+         "flex-layout.row#unleashed-mobile-subcategory-05",
+         "flex-layout.row#unleashed-mobile-subcategory-06",
+         "flex-layout.row#unleashed-mobile-subcategory-07",
+         "flex-layout.row#unleashed-mobile-subcategory-08",
+         "flex-layout.row#unleashed-mobile-subcategory-09",
+         "flex-layout.row#unleashed-mobile-subcategory-10",
+         "flex-layout.row#unleashed-mobile-subcategory-12",
+         "flex-layout.row#unleashed-mobile-subcategory-13",
+         "flex-layout.row#unleashed-mobile-subcategory-14",
+         "flex-layout.row#unleashed-mobile-subcategory-15"
+      ],
+      "props": {
+         "disposition": [
+            {"order": 1, "show": true},
+            {"order": 2, "show": true},
+            {"order": 3, "show": true},
+            {"order": 4, "show": true},
+            {"order": 5, "show": true},
+            {"order": 6, "show": true},
+            {"order": 7, "show": true},
+            {"order": 8, "show": true},
+            {"order": 9, "show": true},
+            {"order": 10, "show": true},
+            {"order": 11, "show": true},
+            {"order": 12, "show": true},
+            {"order": 13, "show": true},
+            {"order": 14, "show": true},
+            {"order": 15, "show": true}
+         ]
+      },
+      "title": "Disposition - Subcategories"
+   },
+   "flex-layout.row#unleashed-mobile-subcategory-showall":{
+      "children":[
+         "menu-item#item-category-template-subcategory-showall"
+      ],
+      "props":{
+         "blockClass": [
+            "submenu-row",
+            "item-category-subcategory-showall"
+         ]
+      }
+   },
+   "menu-item#item-category-template-subcategory-showall":{
+      "props":{
+         "id":"category-showall",
+         "type":"custom",
+         "iconId":null,
+         "highlight":false,
+         "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow":true,
+            "tagTitle":"#category-showall",
+            "text":"#category-showall"
+         },
+         "blockClass":"header-category-title"
+      }
+   },
+   "menu-item#item-01-category-subcategory-template":{
+      "props":{
+         "id":"unleashed-mobile-subcategory-01",
+         "type":"custom",
+         "iconId":null,
+         "highlight":false,
+         "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow":true,
+            "tagTitle":"#subcategory",
+            "text":"#subcategory"
+         },
+         "blockClass":"header-category-title"
+      }
+   },
+   "flex-layout.row#unleashed-mobile-subcategory-01":{
+      "children":[
+         "menu-item#item-01-category-subcategory-template"
+      ],
+      "props":{
+         "blockClass":"submenu-row"
+      }
+   },
+   "flex-layout.row#unleashed-mobile-subcategory-02":{
+      "children":[
+         "menu-item#item-01-category-subcategory-template"
+      ],
+      "props":{
+         "blockClass":"submenu-row"
+      }
+   },
+   "flex-layout.row#unleashed-mobile-subcategory-03":{
+      "children":[
+         "menu-item#item-01-category-subcategory-template"
+      ],
+      "props":{
+         "blockClass":"submenu-row"
+      }
+   },
+   "flex-layout.row#unleashed-mobile-subcategory-04":{
+      "children":[
+         "menu-item#item-01-category-subcategory-template"
+      ],
+      "props":{
+         "blockClass":"submenu-row"
+      }
+   },
+   "flex-layout.row#unleashed-mobile-subcategory-05":{
+      "children":[
+         "menu-item#item-01-category-subcategory-template"
+      ],
+      "props":{
+         "blockClass":"submenu-row"
+      }
+   },
+   "flex-layout.row#unleashed-mobile-subcategory-06":{
+      "children":[
+         "menu-item#item-01-category-subcategory-template"
+      ],
+      "props":{
+         "blockClass":"submenu-row"
+      }
+   },
+
+   "flex-layout.row#unleashed-mobile-subcategory-07":{
+      "children":[
+         "menu-item#item-01-category-subcategory-template"
+      ],
+      "props":{
+         "blockClass":"submenu-row"
+      }
+   },
+   "flex-layout.row#unleashed-mobile-subcategory-08":{
+      "children":[
+         "menu-item#item-01-category-subcategory-template"
+      ],
+      "props":{
+         "blockClass":"submenu-row"
+      }
+   },
+   "flex-layout.row#unleashed-mobile-subcategory-09":{
+      "children":[
+         "menu-item#item-01-category-subcategory-template"
+      ],
+      "props":{
+         "blockClass":"submenu-row"
+      }
+   },
+   "flex-layout.row#unleashed-mobile-subcategory-10":{
+      "children":[
+         "menu-item#item-01-category-subcategory-template"
+      ],
+      "props":{
+         "blockClass":"submenu-row"
+      }
+   },
+   "flex-layout.row#unleashed-mobile-subcategory-12":{
+      "children":[
+         "menu-item#item-01-category-subcategory-template"
+      ],
+      "props":{
+         "blockClass":"submenu-row"
+      }
+   },
+   "flex-layout.row#unleashed-mobile-subcategory-13":{
+     "children":[
+         "menu-item#item-01-category-subcategory-template"
+     ],
+     "props":{
+         "blockClass":"submenu-row"
+     }
+   },
+   "flex-layout.row#unleashed-mobile-subcategory-14":{
+     "children":[
+         "menu-item#item-01-category-subcategory-template"
+     ],
+     "props":{
+         "blockClass":"submenu-row"
+     }
+   },
+   "flex-layout.row#unleashed-mobile-subcategory-15":{
+     "children":[
+         "menu-item#item-01-category-subcategory-template"
+     ],
+     "props":{
+         "blockClass":"submenu-row"
+     }
+   }
+   
+}
