@@ -4,13 +4,28 @@
 # End the script immediately if any command or pipe exits with a non-zero status.
 set -euo pipefail
 
-_clone_repository () {
-  git clone https://github.com/josuezambrano/menu-template.git menu-template
-  cd menu-template/ &> /dev/null
-  mv src/* . &> /dev/null
-  rm -f build.sh &> /dev/null
-  rm -rf .git/ &> /dev/null
-  rm -rf docs/ &> /dev/null
-  rm -rf src/ &> /dev/null
+check_is_folder_exists() {
+  if [ -d "./unleashed-menu" ]; then
+    echo "Error: 'unleashed-menu' already exists😕"
+    exit 1
+  fi
 }
-_clone_repository
+
+clone_repository() {
+  git clone --quiet https://github.com/josuezambrano/menu-template.git unleashed-menu
+}
+
+clean_folder() {
+  rm -f unleashed-menu/build.sh
+  rm -rf unleashed-menu/docs
+  mv unleashed-menu/src/unleashed-menu/* unleashed-menu/
+  rm -rf unleashed-menu/src
+}
+
+echo "Building...🔨"
+
+check_is_folder_exists
+clone_repository
+clean_folder
+
+echo "Menu template created succesfully🥳"
