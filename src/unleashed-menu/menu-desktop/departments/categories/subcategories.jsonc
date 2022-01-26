@@ -1,0 +1,100 @@
+{
+  "disposition-layout#subcategory-template": {
+    "children": [
+      "flex-layout.row#unleashed-menu-desktop-subcategory-01",
+      "flex-layout.row#unleashed-menu-desktop-subcategory-02",
+      "flex-layout.row#unleashed-menu-desktop-subcategory-03",
+      "flex-layout.row#unleashed-menu-desktop-subcategory-04",
+      "flex-layout.row#unleashed-menu-desktop-subcategory-05",
+      "flex-layout.row#unleashed-menu-desktop-subcategory-06",
+      "flex-layout.row#unleashed-menu-desktop-subcategory-07",
+      "flex-layout.row#unleashed-menu-desktop-subcategory-08",
+      "flex-layout.row#unleashed-menu-desktop-subcategory-09",
+      "flex-layout.row#unleashed-menu-desktop-subcategory-10",
+      "flex-layout.row#unleashed-menu-desktop-subcategory-11",
+      "flex-layout.row#unleashed-menu-desktop-subcategory-12",
+      "flex-layout.row#unleashed-menu-desktop-subcategory-13",
+      "flex-layout.row#unleashed-menu-desktop-subcategory-14",
+      "flex-layout.row#unleashed-menu-desktop-subcategory-15"
+    ],
+    "props": {
+      "disposition": [
+        { "order": 1, "show": true },
+        { "order": 2, "show": true },
+        { "order": 3, "show": false },
+        { "order": 4, "show": false },
+        { "order": 5, "show": false },
+        { "order": 7, "show": false },
+        { "order": 8, "show": false },
+        { "order": 9, "show": false },
+        { "order": 10, "show": false },
+        { "order": 11, "show": false },
+        { "order": 12, "show": false },
+        { "order": 13, "show": false },
+        { "order": 14, "show": false },
+        { "order": 15, "show": false }
+      ]
+    },
+    "title": "Disposition - Menu column subcategory"
+  },
+  "flex-layout.row#unleashed-menu-desktop-subcategory-01": {
+    "children": ["menu-item#unleashed-menu-desktop-subcategory-template"]
+  },
+  "flex-layout.row#unleashed-menu-desktop-subcategory-02": {
+    "children": ["menu-item#unleashed-menu-desktop-subcategory-template"]
+  },
+  "flex-layout.row#unleashed-menu-desktop-subcategory-03": {
+    "children": ["menu-item#unleashed-menu-desktop-subcategory-template"]
+  },
+  "flex-layout.row#unleashed-menu-desktop-subcategory-04": {
+    "children": ["menu-item#unleashed-menu-desktop-subcategory-template"]
+  },
+  "flex-layout.row#unleashed-menu-desktop-subcategory-05": {
+    "children": ["menu-item#unleashed-menu-desktop-subcategory-template"]
+  },
+  "flex-layout.row#unleashed-menu-desktop-subcategory-06": {
+    "children": ["menu-item#unleashed-menu-desktop-subcategory-template"]
+  },
+  "flex-layout.row#unleashed-menu-desktop-subcategory-07": {
+    "children": ["menu-item#unleashed-menu-desktop-subcategory-template"]
+  },
+  "flex-layout.row#unleashed-menu-desktop-subcategory-08": {
+    "children": ["menu-item#unleashed-menu-desktop-subcategory-template"]
+  },
+  "flex-layout.row#unleashed-menu-desktop-subcategory-09": {
+    "children": ["menu-item#unleashed-menu-desktop-subcategory-template"]
+  },
+  "flex-layout.row#unleashed-menu-desktop-subcategory-10": {
+    "children": ["menu-item#unleashed-menu-desktop-subcategory-template"]
+  },
+  "flex-layout.row#unleashed-menu-desktop-subcategory-11": {
+    "children": ["menu-item#unleashed-menu-desktop-subcategory-template"]
+  },
+  "flex-layout.row#unleashed-menu-desktop-subcategory-12": {
+    "children": ["menu-item#unleashed-menu-desktop-subcategory-template"]
+  },
+  "flex-layout.row#unleashed-menu-desktop-subcategory-13": {
+    "children": ["menu-item#unleashed-menu-desktop-subcategory-template"]
+  },
+  "flex-layout.row#unleashed-menu-desktop-subcategory-14": {
+    "children": ["menu-item#unleashed-menu-desktop-subcategory-template"]
+  },
+  "flex-layout.row#unleashed-menu-desktop-subcategory-15": {
+    "children": ["menu-item#unleashed-menu-desktop-subcategory-template"]
+  },
+  "menu-item#unleashed-menu-desktop-subcategory-template": {
+    "props": {
+      "blockClass": ["submenu-title", "submenu-title-extra", "submenu-title-extra-level-2"],
+      "id": "menu-item-extra-content-item-01-title",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "#subcategory",
+        "text": "#subcategory"
+      }
+    }
+  }
+}

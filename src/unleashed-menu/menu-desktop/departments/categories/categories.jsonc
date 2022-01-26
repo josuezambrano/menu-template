@@ -116,13 +116,13 @@
   },
 
   "menu#department-content-column-template": {
-    "children": ["disposition-layout#department-content-column-template"],
+    "children": ["disposition-layout#category-template"],
     "props": {
       "orientation": "vertical",
       "blockClass": ["all-departments-menu", "all-departments-menu-extra"]
     }
   },
-  "disposition-layout#department-content-column-template": {
+  "disposition-layout#category-template": {
     "children": [
       "menu#unleashed-menu-desktop-category-01",
       "menu#unleashed-menu-desktop-category-02",
@@ -148,7 +148,7 @@
     "title": "Disposition - Menu column category"
   },
   "menu#unleashed-menu-desktop-category-01": {
-    "children": ["menu-item#unleashed-menu-desktop-category-template", "disposition-layout#category-content-column-template"],
+    "children": ["menu-item#unleashed-menu-desktop-category-template", "disposition-layout#subcategory-template"],
     "props": {
       "blockClass": "menu-desktop",
       "orientation": "vertical"
@@ -156,7 +156,7 @@
     "title": "Category 01"
   },
   "menu#unleashed-menu-desktop-category-02": {
-    "children": ["menu-item#unleashed-menu-desktop-category-template", "disposition-layout#category-content-column-template"],
+    "children": ["menu-item#unleashed-menu-desktop-category-template", "disposition-layout#subcategory-template"],
     "props": {
       "blockClass": "menu-desktop",
       "orientation": "vertical"
@@ -164,7 +164,7 @@
     "title": "Category 02"
   },
   "menu#unleashed-menu-desktop-category-03": {
-    "children": ["menu-item#unleashed-menu-desktop-category-template", "disposition-layout#category-content-column-template"],
+    "children": ["menu-item#unleashed-menu-desktop-category-template", "disposition-layout#subcategory-template"],
     "props": {
       "blockClass": "menu-desktop",
       "orientation": "vertical"
@@ -172,7 +172,7 @@
     "title": "Category 03"
   },
   "menu#unleashed-menu-desktop-category-04": {
-    "children": ["menu-item#unleashed-menu-desktop-category-template", "disposition-layout#category-content-column-template"],
+    "children": ["menu-item#unleashed-menu-desktop-category-template", "disposition-layout#subcategory-template"],
     "props": {
       "blockClass": "menu-desktop",
       "orientation": "vertical"
@@ -180,7 +180,7 @@
     "title": "Category 04"
   },
   "menu#unleashed-menu-desktop-category-05": {
-    "children": ["menu-item#unleashed-menu-desktop-category-template", "disposition-layout#category-content-column-template"],
+    "children": ["menu-item#unleashed-menu-desktop-category-template", "disposition-layout#subcategory-template"],
     "props": {
       "blockClass": "menu-desktop",
       "orientation": "vertical"
@@ -188,7 +188,7 @@
     "title": "Category 05"
   },
   "menu#unleashed-menu-desktop-category-06": {
-    "children": ["menu-item#unleashed-menu-desktop-category-template", "disposition-layout#category-content-column-template"],
+    "children": ["menu-item#unleashed-menu-desktop-category-template", "disposition-layout#subcategory-template"],
     "props": {
       "blockClass": "menu-desktop",
       "orientation": "vertical"
@@ -196,7 +196,7 @@
     "title": "Category 06"
   },
   "menu#unleashed-menu-desktop-category-07": {
-    "children": ["menu-item#unleashed-menu-desktop-category-template", "disposition-layout#category-content-column-template"],
+    "children": ["menu-item#unleashed-menu-desktop-category-template", "disposition-layout#subcategory-template"],
     "props": {
       "blockClass": "menu-desktop",
       "orientation": "vertical"
@@ -204,50 +204,12 @@
     "title": "Category 07"
   },
   "menu#unleashed-menu-desktop-category-08": {
-    "children": ["menu-item#unleashed-menu-desktop-category-template", "disposition-layout#category-content-column-template"],
+    "children": ["menu-item#unleashed-menu-desktop-category-template", "disposition-layout#subcategory-template"],
     "props": {
       "blockClass": "menu-desktop",
       "orientation": "vertical"
     },
     "title": "Category 08"
-  },
-  "disposition-layout#category-content-column-template": {
-    "children": [
-      "flex-layout.row#unleashed-menu-desktop-subcategory-01",
-      "flex-layout.row#unleashed-menu-desktop-subcategory-02",
-      "flex-layout.row#unleashed-menu-desktop-subcategory-03",
-      "flex-layout.row#unleashed-menu-desktop-subcategory-04",
-      "flex-layout.row#unleashed-menu-desktop-subcategory-05",
-      "flex-layout.row#unleashed-menu-desktop-subcategory-06",
-      "flex-layout.row#unleashed-menu-desktop-subcategory-07",
-      "flex-layout.row#unleashed-menu-desktop-subcategory-08",
-      "flex-layout.row#unleashed-menu-desktop-subcategory-09",
-      "flex-layout.row#unleashed-menu-desktop-subcategory-10",
-      "flex-layout.row#unleashed-menu-desktop-subcategory-11",
-      "flex-layout.row#unleashed-menu-desktop-subcategory-12",
-      "flex-layout.row#unleashed-menu-desktop-subcategory-13",
-      "flex-layout.row#unleashed-menu-desktop-subcategory-14",
-      "flex-layout.row#unleashed-menu-desktop-subcategory-15"
-    ],
-    "props": {
-      "disposition": [
-        { "order": 1, "show": true },
-        { "order": 2, "show": true },
-        { "order": 3, "show": false },
-        { "order": 4, "show": false },
-        { "order": 5, "show": false },
-        { "order": 7, "show": false },
-        { "order": 8, "show": false },
-        { "order": 9, "show": false },
-        { "order": 10, "show": false },
-        { "order": 11, "show": false },
-        { "order": 12, "show": false },
-        { "order": 13, "show": false },
-        { "order": 14, "show": false },
-        { "order": 15, "show": false }
-      ]
-    },
-    "title": "Disposition - Menu column subcategory"
   },
   "menu-item#unleashed-menu-desktop-category-template": {
     "props": {
