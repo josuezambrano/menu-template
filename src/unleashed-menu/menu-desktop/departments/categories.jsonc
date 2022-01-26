@@ -63,7 +63,7 @@
   },
   "image#submenu-image-example-01": {
     "props": {
-      "src": "assets/menu/example1.png",
+      // "src": "assets/menu/example1.png",
       "link": {
         "url": "/"
       },
@@ -72,7 +72,7 @@
   },
   "image#submenu-image-example-02": {
     "props": {
-      "src": "assets/menu/example2.png",
+      // "src": "assets/menu/example2.png",
       "link": {
         "url": "/"
       },
@@ -93,7 +93,7 @@
   },
   "image#submenu-image-example-03": {
     "props": {
-      "src": "assets/menu/example3.png",
+      // "src": "assets/menu/example3.png",
       "link": {
         "url": "/"
       },
