@@ -17,6 +17,7 @@ clone_repository() {
 
 clean_folder() {
   rm -f unleashed-menu/build.sh
+  rm -rf unleashed-menu/.git
   rm -rf unleashed-menu/docs
   mv unleashed-menu/src/unleashed-menu/* unleashed-menu/
   rm -rf unleashed-menu/src
